@@ -1,258 +1,179 @@
-.Navbar {
+.container{
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.hero{
   display: flex;
-  align-items: center;
-  width: 100%;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
-.Navbarlink {
-  display: flex;
-  align-items: center;
-  gap: 32px;
+body{
+  font-family: 'Poppins', sans-serif;
 }
 
-.Judul {
-  color: #ec7d10;
-  font-family: Poppins;
-  font-size: 52px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
+h1 {
+  font-size: 32px ;
+  font-weight:bold ;
 }
-
-.Keterangan {
-  color: #134611;
-  /* width: 553px; */
-  font-family: Poppins;
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
+h2 {
+  font-size: 28px;
+  font-weight: bold;
 }
-
-.background {
-  width: 100%;
-  background: #e8fccf;
-}
-.Jarak {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  gap: 16px;
-}
-.Jarakjk {
-  display: flex;
-  width: 400px;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 6px;
-}
-
-.Judul2 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 6px;
-}
-
-.Kategori {
-  color: #ec7d10;
-  font-family: Poppins;
-  font-size: 42px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
-}
-
-.Temukan {
-  color: #000;
-  font-family: Poppins;
+h3 {
   font-size: 24px;
-  font-style: normal;
   font-weight: 600;
-  line-height: normal;
 }
 
-.Card1 {
-  display: flex;
-  align-items: flex-start;
-  gap: 24px;
-}
-.Card2 {
-  display: flex;
-  align-items: flex-start;
-  gap: 24px;
+h4{
+  font-size: 20px;
+  font-weight: 500;
 }
 
-.Card {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 16px;
+h5{
+  font-size: 16px;
+  font-weight: 500;
+}
+
+h6{
+    margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.color-primary{
+color: #E8FCCF;
+}
+
+.color-secondary{
+  color: #134611;
+}
+
+.color-tertiary{
+  color: #EC7D10;
+}
+
+.background-primary{
+  background-color: #E8FCCF;
+}
+
+.background-secondary{
+  background-color: #134611;
+}
+
+.button{
+  background-color: #EC7D10;
+  color: white;
+  padding: 8px 20px 8px 20px;
+  border-radius: 8px;
+  border: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.button:hover{
+  background-color:#864300;
+}
+
+.category{
+  text-align: center;
+}
+
+.card{
+  border-radius: 10px;
+  display: inline-flex;
+  width: 240px;
+  justify-content: center;
   padding-top: 24px;
   padding-bottom: 24px;
-}
-.Wortel {
-  color: #000;
-  font-family: Poppins;
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-}
-
-.CardWortel {
-  display: flex;
-  padding: 24px 12px 24px 12px;
   flex-direction: column;
   align-items: center;
-  border-radius: 24px;
-  background: #e8fccf;
+  text-align: center;
 }
-
-.Anggur {
-  color: #000;
-  font-family: Poppins;
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-}
-
-.CardAnggur {
+.category-card{
   display: flex;
-  padding: 24px 12px 24px 12px;
-  flex-direction: column;
-  align-items: center;
-  border-radius: 24px;
-  background: #e8fccf;
-}
-
-.Brokoli {
-  color: #000;
-  font-family: Poppins;
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-}
-
-.CardBrokoli {
-  display: flex;
-  padding: 24px 12px 24px 12px;
-  flex-direction: column;
-  align-items: center;
-  border-radius: 24px;
-  background: #e8fccf;
-}
-
-.Pisang {
-  color: #000;
-  font-family: Poppins;
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-}
-
-.CardPisang {
-  display: flex;
-  padding: 24px 12px 24px 12px;
-  flex-direction: column;
-  align-items: center;
-  border-radius: 24px;
-  background: #e8fccf;
-}
-
-.SawiPutih {
-  color: #000;
-  font-family: Poppins;
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-}
-
-.CardSawiPutih {
-  display: flex;
-  padding: 24px 12px 24px 12px;
-  flex-direction: column;
-  align-items: center;
-  border-radius: 24px;
-  background: #e8fccf;
-}
-
-.Jeruk {
-  color: #000;
-  font-family: Poppins;
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-}
-
-.CardJeruk {
-  display: flex;
-  padding: 24px 12px 24px 12px;
-  flex-direction: column;
-  align-items: center;
-  border-radius: 24px;
-  background: #e8fccf;
-}
-
-.Hubungi {
-  color: #fff;
-  font-family: Inter;
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-}
-
-.Penjelasan {
-  align-self: stretch;
-  color: #fff;
-  font-family: Inter;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 150%;
-  /* 24px */
-}
-
-.BackgroundHubungi {
-  display: flex;
-  height: 454px;
-  padding: 67px 174px 67px 99px;
-  align-items: center;
-  background: #134611;
-}
-
-.HubPel {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 16px;
-  align-self: stretch;
-}
-
-ul {
-  list-style-type: none;
-}
-
-.btn {
-  display: flex;
-  padding: 14.219px 31.598px;
   justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.footer-text{
+  color: white;
+  display: flex;
+  padding: 0 0 24px 0;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.location{
+  display: inline-flex;
+}
+
+.contact{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+input{
+  padding-left: 4px;
+  padding-right: 8px;
+  padding-top: 4px;
+  padding-bottom: 8px;
+  border-radius: 6px;
+    border: none;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 500;
+      font-size: 12px;
+      color: black;
+}
+
+textarea{
+    padding-left: 4px;
+      padding-right: 8px;
+      padding-top: 4px;
+      padding-bottom: 8px;
+      border-radius: 6px;
+      border: none;
+      font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        font-size: 12px;
+        color: black;
+}
+
+footer{
+  margin: 24px 0 0 0;
+  height: 300px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.footer-form {
+  padding: 24px 0px 24px 0;
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.form-send{
+  display: flex;
+  justify-content: end;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
   align-items: center;
-  gap: 7.9px;
-  border-radius: 7.9px;
-  background: #ec7d10;
-  color: #fff;
-  font-family: Poppins;
-  font-size: 25.279px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
+  padding: 2px 32px 2px 32px;
+}
+.nav-items {
+  display: flex;
+  gap: 12px;
 }
