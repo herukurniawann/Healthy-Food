@@ -7,4 +7,5 @@ NRP : 5025211055
 Kelas : Pemrograman Web D
 
 ## Heru Kalkulator
-![screenshot (30)](https://github.com/herukurniawann/Pweb-tugas-1-Healthy-Food/assets/93961310/f47d4a4f-35ae-484f-b47b-1cbef82785cb)
+
+![image](https://github.com/robbypambudi/Calculator-Program-In-JS/assets/93961310/ab708ab5-6d0e-40fa-ba9a-ed834128095b)
